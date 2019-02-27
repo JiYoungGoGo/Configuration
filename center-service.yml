@@ -1,10 +1,10 @@
-greeting:hellow center
+"greeting:hellow center"
 
 ---
 spring:
   profiles: local
-greeting:hello center local
-test:test local
+"greeting:hello center local"
+"test:test local"
 
 ---
 spring:
