@@ -1,0 +1,17 @@
+
+greeting:"hi test"
+
+---
+spring:
+  profiles: stage
+greeting:"welcome stage test"
+
+---
+spring:
+  profiles: dev
+greeting:"welcome dev test"
+
+---
+spring:
+  profiles: local
+greeting:"welcome local test"
