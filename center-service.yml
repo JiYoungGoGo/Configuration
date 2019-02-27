@@ -1,0 +1,19 @@
+greeting:"hellow center"
+
+---
+spring:
+  profiles: local
+greeting:"hello center local"
+test:"test local"
+
+---
+spring:
+  profiles: dev
+greeting:"hello center dev"
+test:"test dev"
+
+---
+spring:
+  profiles: stage
+greeting:"hello center stage"
+test:"test stage"
