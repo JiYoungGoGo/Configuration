@@ -1,2 +1,6 @@
 "greeting:hellow center"
 
+---
+spring:
+  profiles: local
+"greeting: hi center local"
